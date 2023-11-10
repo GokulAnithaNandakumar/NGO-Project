@@ -1,0 +1,242 @@
+/* Add your custom styles here */
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+nav {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.hero-section {
+    background-color: white;
+
+}
+
+.about-us-section,
+.projects-section,
+.get-involved-section,
+.contact-us-section {
+    padding: 80px 0;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 5px;
+}
+
+nav {
+    border-bottom: 2px solid black;
+}
+
+
+#logo {
+    width: 25%;
+    height: 25%;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+
+#links {
+    color: #000;
+    text-align: center;
+    font-family: Cabin;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 12px;
+    margin: 10px;
+}
+
+h1 {
+    padding-top: 50px;
+    color: var(--Logo-font-colour, #44C139);
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: Content;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+
+}
+
+h3 {
+    color: #000;
+    text-align: center;
+    font-family: Content;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+#button3 {
+    display: flex;
+    width: 132px;
+    height: 48px;
+    padding: 24px 71px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: var(--Login-Register-btn-colour, #00F418);
+    text-align: center;
+    margin: 0 auto
+}
+
+#button3 a,
+#button4 a,
+#button5 a {
+    color: var(--text-colour-2, #00230A);
+    text-align: center;
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.container2,
+.container3,
+.container4 {
+
+    text-align: left;
+    border-radius: 50px;
+    border: 3px solid #000;
+    background: var(--Theme-colour, #6AFF8B);
+    padding-bottom: 20px;
+
+    flex-shrink: 0;
+
+}
+
+.container2 h3 {
+    color: #000;
+    font-family: Content;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#button4,
+#button5 {
+    display: flex;
+    width: 132px;
+    height: 48px;
+    padding: 24px 71px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: var(--Login-Register-btn-colour, white);
+    text-align: center;
+    margin: 0 auto
+}
+
+#button3 a:hover,
+#button4 a:hover,
+#button5 a:hover {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#links:hover {
+    color: #545353;
+}
+
+hr {
+    height: 0.5px;
+    width: auto;
+    background-color: black;
+    border: solid 0.5px;
+}
+
+
+#devdiv {
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: var(--Theme-colour, #6AFF8B);
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+#devnames {
+    color: #000;
+    text-align: center;
+    font-family: Dangrek;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#socials {
+    margin: 10px;
+    height: 30px;
+
+}
+
+#footer_name {
+    /* padding-top: 10px; */
+    color: var(--Logo-font-colour, #44C139);
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
