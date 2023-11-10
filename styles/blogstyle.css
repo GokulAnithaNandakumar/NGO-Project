@@ -82,3 +82,59 @@ nav {
     padding-top: 12px;
     margin: 10px;
 }
+
+h1 {
+    font-family: Cabin;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: Cabin;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+forms {
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px;
+    border-color: black;
+    border-radius: 25%;
+    border-width: 2px;
+}
