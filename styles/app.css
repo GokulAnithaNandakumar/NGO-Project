@@ -186,6 +186,11 @@ h3 {
     margin: 0 auto
 }
 
+/* #button4 a,
+#button5 a {
+    color: #00F418;
+} */
+
 #button3 a:hover,
 #button4 a:hover,
 #button5 a:hover {
@@ -239,4 +244,98 @@ hr {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+#effects:hover {
+    background: #309df0;
+    color: #fff;
+    transform: scale(1.1);
+    z-index: 9;
+    transition: 0.7s;
+}
+
+#effects:hover::before {
+
+
+    background: rgb(85 108 214 / 30%);
+
+}
+
+#effects:hover h2,
+#effects:hover .h3 {
+    color: #fff;
+}
+
+#effects:before {
+    content: "";
+    position: absolute;
+    background: rgb(85 108 214 / 5%);
+    width: 170px;
+    height: 400px;
+    z-index: -1;
+    transform: rotate(42deg);
+    right: 93px;
+    top: 53px;
+    border-radius: 35px;
+}
+
+#effects:hover button {
+    background: #00e8f4 !important;
+    color: #309df0;
+}
+
+
+#flipboxfront,
+#flipboxback {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    min-height: 475px;
+    -ms-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+    transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+    -webkit-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+#flipboxfront {
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.flipbox:hover #flipboxfront {
+    -ms-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#flipboxback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.flipbox:hover #flipboxback {
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
