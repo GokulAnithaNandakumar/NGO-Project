@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <!-- babel -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
     <!-- Google Font -->
     <link
         href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Acme|Alegreya|Alegreya+Sans|Anton|Archivo|Archivo+Black|Archivo+Narrow|Arimo|Arvo|Asap|Asap+Condensed|Bitter|Bowlby+One+SC|Bree+Serif|Cabin|Cairo|Catamaran|Crete+Round|Crimson+Text|Cuprum|Dancing+Script|Dosis|Droid+Sans|Droid+Serif|EB+Garamond|Exo|Exo+2|Faustina|Fira+Sans|Fjalla+One|Francois+One|Gloria+Hallelujah|Hind|Inconsolata|Indie+Flower|Josefin+Sans|Julee|Karla|Lato|Libre+Baskerville|Libre+Franklin|Lobster|Lora|Mada|Manuale|Maven+Pro|Merriweather|Merriweather+Sans|Montserrat|Montserrat+Subrayada|Mukta+Vaani|Muli|Noto+Sans|Noto+Serif|Nunito|Open+Sans|Open+Sans+Condensed:300|Oswald|Oxygen|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|PT+Serif|Pacifico|Passion+One|Pathway+Gothic+One|Play|Playfair+Display|Poppins|Questrial|Quicksand|Raleway|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Ropa+Sans|Rubik|Saira|Saira+Condensed|Saira+Extra+Condensed|Saira+Semi+Condensed|Sedgwick+Ave|Sedgwick+Ave+Display|Shadows+Into+Light|Signika|Slabo+27px|Source+Code+Pro|Source+Sans+Pro|Spectral|Titillium+Web|Ubuntu|Ubuntu+Condensed|Varela+Round|Vollkorn|Work+Sans|Yanone+Kaffeesatz|Zilla+Slab|Zilla+Slab+Highlight"
@@ -72,41 +77,146 @@
                 Fax: 91-416-2243092 <br>
                 91-416-2240411</h3>
         </div>
-
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-4">
+            <h1 id="h1">Contact Us</h1>
+        </div>
+        <div class="col-md-4"></div>
     </div>
 
-    <div class="carousel">
-        <div class="carousel-cell"><img src="../assets/potrait.webp" class="p">
-            <p class="n">Eddie Kinsella</p>
-            <p class="b">Call</p>
-            <p class="content"></p>
-        </div>
-        <div class="carousel-cell"><img src="../assets/potrait.webp" class="p">
-            <p class="n">Harrison Benac</p>
-            <p class="b">Call</p>
-        </div>
-        <div class="carousel-cell"><img src="../assets/potrait.webp" class="p">
-            <p class="n">Sean Kingston</p>
-            <p class="b">Call</p>
-        </div>
-        <div class="carousel-cell"><img src="../assets/potrait.webp" class="p">
-            <p class="n">Hayden Kaupu</p>
-            <p class="b">Call</p>
-        </div>
-        <div class="carousel-cell"><img src="../assets/potrait.webp" class="p">
-            <p class="n">Franklin Tudor</p>
-            <p class="b">Call</p>
-        </div>
-        <div class="carousel-cell"><img src="../assets/potrait.webp" class="p">
-            <p class="n">Herbert Simpson</p>
-            <p class="b">Call</p>
-        </div>
-        <div class="carousel-cell"><img src="../assets/potrait.webp" class="p">
-            <p class="n">Shaun Coleman</p>
-            <p class="b">Call</p>
+    <div class="row">
+        <div class="col-12 card">
+            <input type="radio" name="select" id="slide_1" checked>
+            <input type="radio" name="select" id="slide_2">
+            <input type="radio" name="select" id="slide_3">
+            <input type="checkbox" id="slideImg">
+
+            <div class="slider">
+                <label for="slide_1" class="slide slide_1"></label>
+                <label for="slide_2" class="slide slide_2"></label>
+                <label for="slide_3" class="slide slide_3"></label>
+            </div>
+
+            <div class="inner_part">
+                <label for="slideImg" class="img">
+                    <img class="img_1" src="../assets/potrait.webp">
+                </label>
+                <div class="content content_1">
+                    <div class="title">İstanbul</div>
+                    <div class="text">
+                        Istanbul, a fascinating city built on two Continents, divided by the Bosphorus Strait. This is
+                        one of the greatest cities in the world.
+                    </div>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="inner_part">
+                <label for="slideImg" class="img">
+                    <img class="img_2" src="../assets/potrait.webp">
+                </label>
+                <div class="content content_2">
+                    <div class="title">Ankara</div>
+                    <div class="text">
+                        Ankara is Turkey's beating heart, second largest city, located in the Central Anatolia region
+                        and home to the Grand National Assembly of Turkey.
+                    </div>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="inner_part">
+                <label for="slideImg" class="img">
+                    <img class="img_3" src="../assets/potrait.webp">
+                </label>
+                <div class="content content_3">
+                    <div class="title">İzmir</div>
+                    <div class="text">Located on the shores of the Aegean Sea, west of the Anatolian Peninsula, İzmir is
+                        the third-largest city in Turkey.
+                    </div>
+                    <button>Read More</button>
+                </div>
+            </div>
         </div>
     </div>
 
+
+
+
+    <div class="container" id="last">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="../assets/devlogo.png">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Michele Miller</h3>
+                        <h4 class="title">role</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-twitter" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-google-plus" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-linkedin" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="../assets/devlogo.png">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Patricia Knott</h3>
+                        <h4 class="title">role</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-twitter" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-google-plus" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-linkedin" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="../assets/devlogo.png">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Justin Ramos</h3>
+                        <h4 class="title">role</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-twitter" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-google-plus" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-linkedin" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="../assets/devlogo.png">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Mary Huntley</h3>
+                        <h4 class="title">role</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-twitter" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-google-plus" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fab fa-linkedin" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer fixed-bottom">
@@ -115,7 +225,7 @@
         </div>
     </footer>
 
-    <script src="../scripts/contact.js"></script>
+    <script src="../scripts/contact.js" type="text/babel"></script>
     <!-- Bootstrap JS and Popper.js -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
